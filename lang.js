@@ -4,7 +4,7 @@ const translations = {
     nav: { about: "À propos", cv: "CV", games: "Portfolio" },
     about: {
       title: "À propos de moi",
-      text: "Je suis designer de jeu vidéo, animé par une passion profonde pour la création et les arts sous toutes leurs formes. Mon parcours est guidé par une curiosité constante, j’adore apprendre, explorer de nouvelles idées et trouver des solutions créatives à des problèmes complexes. Pour moi, chaque projet est une occasion de fusionner technique et imagination, en transformant une simple idée en une expérience interactive unique. Ce qui me motive avant tout, c’est de donner vie à des univers capables de captiver, d’émouvoir et d’inspirer les joueurs. Mon objectif est de créer des expériences qui laissent une empreinte durable dans l’esprit de ceux qui les vivent."
+      text: "Je suis designer de jeu vidéo, animé par une passion profonde pour la création et les arts sous toutes leurs formes. Mon parcours est guidé par une curiosité constante, j’adore apprendre, explorer de nouvelles idées et trouver des solutions créatives à des problèmes complexes. Pour moi, chaque projet est une occasion de fusionner technique et imagination, en transformant une simple idée en une expérience interactive unique. Ce qui me motive avant tout, c’est de donner vie à des univers capables de captiver, d’émouvoir et d’inspirer les joueurs. Mon objectif est de créer des expériences qui laissent une empreinte durable dans l’esprit de ceux qui les vivent. Touche à tout et passionné, je joue à une grande variété de jeux et je reste constamment informé des tendances et de l’actualité de l’industrie vidéoludique, ce qui nourrit mon approche créative et ma compréhension des attentes des joueurs."
     },
     cv: {
       title: "Mon CV",
@@ -72,7 +72,7 @@ const translations = {
     nav: { about: "About Me", cv: "Resume", games: "Portfolio" },
     about: {
       title: "About Me",
-      text: "I am a video game designer driven by a deep passion for creation and the arts in all their forms. My journey is guided by constant curiosity, I love learning, exploring new ideas, and finding creative solutions to complex problems. For me, every project is an opportunity to merge technical skill with imagination, transforming a simple concept into a unique interactive experience. What motivates me above all is bringing worlds to life that can captivate, move, and inspire players. My ultimate goal is to create experiences that leave a lasting impression on those who live them."
+      text: "I am a video game designer driven by a deep passion for creation and the arts in all their forms. My journey is guided by constant curiosity, I love learning, exploring new ideas, and finding creative solutions to complex problems. For me, every project is an opportunity to merge technical skills with imagination, turning a simple concept into a unique interactive experience. What motivates me above all is bringing worlds to life that can captivate, move, and inspire players. My ultimate goal is to create experiences that leave a lasting impression on those who live them. Versatile and curious, I play a wide variety of games and stay constantly up to date with industry trends and news, which fuels my creative process and deepens my understanding of player expectations."
     },
     cv: {
       title: "My Resume",
