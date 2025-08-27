@@ -7,7 +7,7 @@
   <!-- Tailwind via CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Bilingue + contenu -->
-  <script src="lang.js?v=5" defer></script>
+  <script src="lang.js?v=6" defer></script>
 </head>
 <body class="bg-gray-100 text-gray-800">
 
@@ -45,9 +45,7 @@
       <h2 id="about-title" class="text-2xl font-bold mb-4">À propos de moi</h2>
       <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
         <img src="images/profile.jpg" alt="Photo de profil" class="w-40 h-40 rounded-full object-cover border-4 border-yellow-400">
-        <p id="about-text" class="text-lg leading-relaxed">
-          Je suis designer de jeu vidéo, animé par une passion profonde pour la création et les arts sous toutes leurs formes. Mon parcours est guidé par une curiosité constante, j’adore apprendre, explorer de nouvelles idées et trouver des solutions créatives à des problèmes complexes. Pour moi, chaque projet est une occasion de fusionner technique et imagination, en transformant une simple idée en une expérience interactive unique. Ce qui me motive avant tout, c’est de donner vie à des univers capables de captiver, d’émouvoir et d’inspirer les joueurs. Mon objectif est de créer des expériences qui laissent une empreinte durable dans l’esprit de ceux qui les vivent.
-        </p>
+        <p id="about-text" class="text-lg leading-relaxed"></p>
       </div>
     </section>
 
@@ -60,9 +58,7 @@
         </a>
       </div>
 
-      <p id="cv-text" class="mb-4">
-        Voici mon parcours professionnel, mes compétences et mes expériences clés.
-      </p>
+      <p id="cv-text" class="mb-4"></p>
 
       <div class="bg-gray-100 border border-gray-200 rounded-lg overflow-hidden">
         <!-- src défini dynamiquement par lang.js selon la langue -->
@@ -75,9 +71,7 @@
         </iframe>
       </div>
 
-      <p id="cv-fallback" class="text-sm text-gray-600 mt-3">
-        <!-- texte de secours injecté par lang.js -->
-      </p>
+      <p id="cv-fallback" class="text-sm text-gray-600 mt-3"></p>
     </section>
 
     <!-- PORTFOLIO -->
@@ -225,15 +219,10 @@
 
   <!-- Lightbox plein écran avec navigation -->
   <div id="lightbox" class="fixed inset-0 bg-black/90 hidden items-center justify-center z-[9999]">
-    <!-- Flèche gauche -->
     <button aria-label="Previous" class="absolute left-4 text-white text-4xl font-bold select-none" onclick="prevImage(event)">&#10094;</button>
-    <!-- Image -->
     <img id="lightbox-img" src="" alt="" class="max-h-[90vh] max-w-[90vw] rounded shadow-lg">
-    <!-- Flèche droite -->
     <button aria-label="Next" class="absolute right-4 text-white text-4xl font-bold select-none" onclick="nextImage(event)">&#10095;</button>
-    <!-- Bouton fermeture -->
     <button aria-label="Close" class="absolute top-4 right-4 text-white text-3xl leading-none select-none" onclick="closeLightbox(event)">✕</button>
-    <!-- Cliquer en arrière-plan ferme la lightbox -->
     <div class="absolute inset-0 -z-10" onclick="closeLightbox(event)"></div>
   </div>
 
@@ -246,8 +235,6 @@
       const main = document.getElementById(mainId);
       if (!main) return;
       main.src = thumbEl.src;
-
-      // reset bordures des vignettes de ce groupe
       document.querySelectorAll('.' + thumbClass).forEach(img => {
         img.classList.remove('border-yellow-400');
         img.classList.add('border-transparent');
